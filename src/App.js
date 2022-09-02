@@ -2,8 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>To Do</h1>
+    <div className="container mx-auto px-4">
+      <h1 className='font-serif text-5xl'>To Do</h1>
       <ul>
         <li>Solve human suffering</li>
         <li>Implement world peace</li>
