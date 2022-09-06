@@ -8,6 +8,10 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
+    container: {
+      center: true,
+      padding: '2rem',
+    },
     extend: {},
   },
   plugins: [],
