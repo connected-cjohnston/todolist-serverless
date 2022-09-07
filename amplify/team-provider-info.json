@@ -15,7 +15,7 @@
       "function": {
         "GetTodoList": {
           "deploymentBucketName": "amplify-todolistserverless-dev-94946-deployment",
-          "s3Key": "amplify-builds/GetTodoList-54357337527773313249-build.zip"
+          "s3Key": "amplify-builds/GetTodoList-524d4551487442362f7a-build.zip"
         }
       }
     }

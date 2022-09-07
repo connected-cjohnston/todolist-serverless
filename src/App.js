@@ -12,11 +12,11 @@ function App() {
     let id = e.input
     API.get(myAPI, path + "/" + id)
        .then(response => {
-         console.log(response.items)
-         setTodoList(response.items);
+         console.log(response)
+         setTodoList(response.Items);
        })
        .catch(error => {
-         console.log(error)
+         console.log(error.Items)
        })
   }
 
@@ -32,7 +32,7 @@ function App() {
           todoList.map((item, index) => {
             return <li key={index}>
               <input type='checkbox' className='mr-3'/>
-                {item}
+                {item.todoItem}
               </li>
           })
         }
